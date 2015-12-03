@@ -1,0 +1,8 @@
+*.pyc
+*.pyo
+*.db
+*.sublime-workspace
+*.map
+.fuse_hidden*
+.DS_Store
+.coverage
