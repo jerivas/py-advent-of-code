@@ -12,7 +12,6 @@ from collections import defaultdict
 # Store the axis and the increment that each character represents
 key = {"<": (0, -1), ">": (0, 1), "^": (1, -1), "v": (1, 1)}
 position = [0, 0]
-directions = ""
 houses = defaultdict(int)
 houses[tuple(position)] = 1  # First house gets a present
 
