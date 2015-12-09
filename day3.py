@@ -13,7 +13,7 @@ from collections import defaultdict
 key = {"<": (0, -1), ">": (0, 1), "^": (1, -1), "v": (1, 1)}
 position = [0, 0]
 directions = ""
-houses = defaultdict(lambda: 0)
+houses = defaultdict(int)
 houses[tuple(position)] = 1  # First house gets a present
 
 with open("inputs/day3.txt", "r") as f:
